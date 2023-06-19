@@ -3,6 +3,7 @@ const app = express();
 const port = 5598;
 const routes = require('./routes/homerouter');
 
+
 app.use(express.json());
 app.use("/", routes);
 
